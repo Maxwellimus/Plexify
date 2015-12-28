@@ -41,7 +41,6 @@ def encode_video(filename, output_dir):
                     "-e", "x264",
                     "-q", "20",
                     "--crop", "0:0:0:0",
-                    "-c", "1",
                     "--loose-anamorphic",
                     "-O"])
 
